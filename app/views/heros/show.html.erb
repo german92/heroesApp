@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Heroname:</strong>
+  <%= @hero.heroName %>
+</p>
+
+<p>
+  <strong>Realname:</strong>
+  <%= @hero.realName %>
+</p>
+
+<p>
+  <strong>Primarycolor:</strong>
+  <%= @hero.primaryColor %>
+</p>
+
+<p>
+  <strong>Secondarycolor:</strong>
+  <%= @hero.secondaryColor %>
+</p>
+
+<p>
+  <strong>Powerrating:</strong>
+  <%= @hero.powerRating %>
+</p>
+
+<p>
+  <strong>Oncall:</strong>
+  <%= @hero.onCall %>
+</p>
+
+<%= link_to 'Edit', edit_hero_path(@hero) %> |
+<%= link_to 'Back', heros_path %>

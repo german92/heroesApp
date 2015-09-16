@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  heroName: MyString
+  realName: MyString
+  primaryColor: MyString
+  secondaryColor: MyString
+  powerRating: 1
+  onCall: false
+
+two:
+  heroName: MyString
+  realName: MyString
+  primaryColor: MyString
+  secondaryColor: MyString
+  powerRating: 1
+  onCall: false
